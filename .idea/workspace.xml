@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a43cf1e9-2574-4aa3-af08-ea75126e2651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/SeriesController.php" afterDir="false" />
+    <list default="true" id="e54fb6a5-14ee-4d99-ae25-568fc04f0f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/validator/validation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/admin/chanel/imageupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/FileUploader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/panel/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LuckyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/series/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SeriesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/series/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/series/show.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="c46db018-357b-4a77-aed9-18c7c1d074fe" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,6 +130,7 @@
       <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/twig/intl-extra" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
@@ -152,12 +161,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2KDe9Qi4JzRiPqUtjD56tmnXwcA" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2KP3pDgFdubZHjOKFzVMPkigMQh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -166,14 +177,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/Pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js/admin/chanel" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\sites\series.net\templates\Pages" />
+      <recent name="C:\xampp\htdocs\sites\series.net\public\js\admin\chanel" />
+      <recent name="C:\xampp\htdocs\sites\series.net\templates\admin\panel" />
+      <recent name="C:\xampp\htdocs\sites\series.net\src\Controller\Admin" />
+      <recent name="C:\xampp\htdocs\sites\series.net\templates\admin" />
+      <recent name="C:\xampp\htdocs\sites\series.net\config\validator" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,32 +200,42 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a43cf1e9-2574-4aa3-af08-ea75126e2651" name="Default Changelist" comment="" />
-      <created>1673513428616</created>
+      <changelist id="e54fb6a5-14ee-4d99-ae25-568fc04f0f5e" name="Default Changelist" comment="" />
+      <created>1673862571499</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1673513428616</updated>
-      <workItem from="1673513430194" duration="190000" />
-      <workItem from="1673513633469" duration="1666000" />
-      <workItem from="1673522661821" duration="1307000" />
-      <workItem from="1673598444427" duration="5182000" />
-      <workItem from="1673641551397" duration="1045000" />
+      <updated>1673862571499</updated>
+      <workItem from="1673862572809" duration="1469000" />
+      <workItem from="1673952552803" duration="3932000" />
+      <workItem from="1674207826106" duration="11084000" />
+      <workItem from="1674379721473" duration="2896000" />
+      <workItem from="1674400370241" duration="6049000" />
+      <workItem from="1674415832914" duration="254000" />
+      <workItem from="1674462827784" duration="18422000" />
+      <workItem from="1674503413946" duration="7000" />
+      <workItem from="1674546164094" duration="9411000" />
+      <workItem from="1674564913916" duration="2655000" />
+      <workItem from="1674572859687" duration="1528000" />
+      <workItem from="1674576694616" duration="2457000" />
+      <workItem from="1674636117182" duration="5056000" />
+      <workItem from="1674643109338" duration="1289000" />
+      <workItem from="1674809298071" duration="9943000" />
+      <workItem from="1674897632533" duration="7058000" />
     </task>
-    <task id="LOCAL-00001" summary="v1-create test controller and templates">
-      <created>1673602773466</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673602773466</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1-create test controller and templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1-create test controller and templates" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Kernel.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
